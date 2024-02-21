@@ -70,7 +70,7 @@ def load_model(model_path: str):
 
 
 def load_data():
-    dataset = load_dataset("ltg/norec_sentence", split="test")
+    dataset = load_dataset("ltg/norec_sentence", "ternary", split="test")
     dataset = [
         {
             "text": sample["review"],
