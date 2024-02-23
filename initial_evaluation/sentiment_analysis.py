@@ -74,10 +74,10 @@ def load_data():
     dataset = [
         {
             "text": sample["review"],
-            "label": "positiv" if sample["sentiment"] == 2 else "negativ",
+            "label": "positiv" if sample["sentiment"] == 1 else "negativ",
         }
         for sample in dataset
-        if sample["sentiment"] != 1  # Exclude neutral samples
+        if sample["sentiment"] != 2  # Exclude neutral samples
     ]
     return dataset
 
