@@ -204,4 +204,5 @@ def main():
 
 
 if __name__ == "__main__":
+    print("\nWARNING: make sure you have ERRANT installed to run the evaluation! Available here: https://github.com/chrisjbryant/errant\n\n", flush=True)
     main()
