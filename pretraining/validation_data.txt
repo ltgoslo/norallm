@@ -1,0 +1,1 @@
+"validation: 1.0 0:1 /scratch/project_465000144/dasamuel/normistral/preprocessed/validation_text_document"
